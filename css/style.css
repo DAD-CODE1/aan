@@ -1,0 +1,172 @@
+body {
+  font-family: "Cairo", sans-serif;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+/* Button styling */
+.btn-more {
+  text-decoration: none;
+  color: black;
+  background-color: #f5f5f5;
+  border: solid 1px #575757;
+  padding: 5px 20px;
+  border-radius: 30px; /* Add curvature */
+}
+
+.btn-more:hover {
+  text-decoration: none;
+  color: white;
+  background-color: #575757;
+  border: solid 1px #f5f5f5;
+  padding: 5px 20px;
+  border-radius: 30px;
+}
+
+.btn-wts {
+  text-decoration: none;
+  color: white;
+  background-color: #1fd162;
+  border: solid 1px #1fd162;
+  padding: 5px 20px;
+  border-radius: 30px;
+  margin-left: 20px;
+}
+
+.btn-wts:hover {
+  text-decoration: none;
+  color: #1fd162;
+  background-color: white;
+  border: solid 1px #1fd162;
+  padding: 5px 20px;
+  border-radius: 30px;
+}
+
+/* Style for hint text */
+.hint {
+  text-align: center;
+  background-color: white;
+  padding: 30px 50px;
+  font-size: 1.4rem;
+}
+
+/* Align buttons and content */
+.right {
+  padding-right: 50px;
+  text-align: right;
+}
+
+/* Mobile styles */
+@media only screen and (max-width: 768px) {
+  .header {
+    padding: 20px;
+  }
+
+  .right {
+    padding-right: 0px;
+    text-align: center;
+  }
+
+  /* Ensure the buttons are side by side with space between */
+  .right .my-5 {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space between buttons */
+  }
+
+  .btn-more,
+  .btn-wts {
+    width: auto;
+    margin: 0;
+  }
+
+  /* Ensure the image takes the full width on mobile without any gap */
+  .col-md-6 img {
+    width: 100%;
+    height: auto;
+    margin: 0; /* Remove any potential margin */
+  }
+
+  .hint {
+    padding: 20px;
+    font-size: 1.2rem;
+  }
+}
+.twasl {
+  background-color: #222f35;
+  color: white;
+}
+.why-info {
+  text-align: right; /* Default alignment */
+}
+
+@media (max-width: 768px) {
+  .why-info {
+    text-align: center; /* Align center on mobile devices */
+  }
+}
+
+.btn-orng {
+  text-decoration: none;
+  color: white;
+  background-color: orange;
+  border: solid 1px orange;
+  padding: 5px 20px;
+  margin-left: 20px;
+}
+.btn-orng:hover {
+  text-decoration: none;
+  color: orange;
+  background-color: white;
+  border: solid 1px orange;
+  padding: 5px 20px;
+}
+
+.btn-mor {
+  text-decoration: none;
+  color: black;
+  background-color: #f5f5f5;
+  border: solid 1px #575757;
+  padding: 5px 20px;
+}
+
+.btn-mor:hover {
+  text-decoration: none;
+  color: white;
+  background-color: #575757;
+  border: solid 1px #f5f5f5;
+  padding: 5px 20px;
+}
+
+.social-icons .icon-circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: orange;
+  color: white;
+  font-size: 24px;
+  transition: all 0.3s ease;
+  /* تأثير الحفر مع تدرج لوني */
+  box-shadow: inset 0px 4px 6px rgba(0, 0, 0, 0.4), inset 0px -4px 6px rgba(255, 255, 255, 0.2);
+}
+
+
+.social-icons .icon-circle:hover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: orange;
+  color: white;
+  font-size: 24px;
+  transition: all 0.3s ease;
+  /* تأثير الحفر مع تدرج لوني */
+  box-shadow:  0px 4px 6px rgba(0, 0, 0, 0.4), inset 0px -4px 6px rgba(255, 255, 255, 0.2);
+}
+
